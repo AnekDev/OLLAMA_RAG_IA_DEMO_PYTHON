@@ -6,7 +6,7 @@ def main():
     #Inizializar 
     rag = RAGEngine (
         model_name="llama2", # Aquí se decide el modelo de IA que vas a hacer, esto se deberia poder cambiar más adelante dependiendo del servicio que quieras
-        documents_path = folderDocumentsPath # Definimos de que carpeta va a sacar la informacion la IA 
+        docuemnts_path = folderDocumentsPath # Definimos de que carpeta va a sacar la informacion la IA 
     )
     
     # Cargar y processar los documentos
